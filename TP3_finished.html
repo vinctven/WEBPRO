@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h1> Profil Pribadi</h1> <!-- h1: Text heading untuk judul halaman -->
+
+            <!-- div: Elemen container untuk mengelompokkan foto profil dan video perkenalan -->
+            <div class="fotovideo">
+                <!-- table: Digunakan untuk menyusun foto dan video dalam format tabel agar terlihat rapih -->
+                <table>
+                    <tr> <!-- tr: menambahkan baris pada tabel --> 
+                        <!-- th: menambahkan kolom pada tabel dengan gaya text heading -->
+                        <th>Foto Profil</th>
+                        <th>Video Perkenalan</th>
+                    </tr>
+                    <tr>
+                        <!-- td: menambahkan kolom pada tabel yang akan menjadi tempat untuk konten di setiap kolom tabel -->
+                        <td>
+                            <!-- img: menampilkan gambar -->
+                            <img src="C:\Users\Raka\Pictures\WhatsApp Image 2024-08-06 at 8.59.21 PM.jpeg" 
+                                 alt="Foto Profil" width="150px" height="150px">
+                        </td>
+                        <td>
+                            <!-- video: menampilkan video player -->
+                            <video width="320" height="240" controls>
+                                <source src="C:\Users\Raka\Videos\318857693_634558121743004_716884604489300054_n.mp4">
+                            </video>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- div: Container untuk informasi "Tentang Saya" -->
+            <div class="about">
+                <h3>Tentang Saya</h3>
+                <!-- p: Paragraf untuk bagian deskripsi diri -->
+                <p>
+                    Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif. <br/> 
+                    Raka Prasetya Wildiansyah | 1303220063
+                </p>
+            </div>
+
+
+            <!-- div: Container untuk tabel keterampilan -->
+            <div class="table_skill">
+                <h3>Keterampilan</h3>
+                <!-- table: Menampilkan data keterampilan dalam format tabel agar terlihat rapih -->
+                <table>
+                    <tr>
+                        <th>Keterampilan</th>
+                        <th>Tingkat</th>
+                    </tr>
+                    <tr>
+                        <td>HTML/CSS</td>
+                        <td>Mahir</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Menengah</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Pemula</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- div: Container untuk bagian form -->
+            <div class="form"> 
+                <h3>Hubungi Saya</h3>
+                <!-- form: Formulir untuk menerima input dari pengguna -->
+                <form> 
+                    Nama: <input type="text" name="nama"><br/>  <!-- input: Field text untuk input nama -->
+                    Email: <input type="email" name="email"><br/> <!-- input: Field text untuk input email -->
+                    Pesan :<br/> 
+                    <textarea rows="4" cols="30" name="pesan"></textarea> <br/> <!-- textarea: Kotak untuk pesan -->
+                    <button type="submit">Submit</button> <!-- button: Tombol untuk mengirim data form -->
+                </form>
+            </div>
+
+
+            <!-- div: Container untuk bagian media sosial -->
+            <div class="connection"> 
+                <h3>Media Sosial</h3>
+                <!-- a: menambahkan hypertext (link) -->
+                <a href="https://www.youtube.com" target="_blank">YouTube |</a>
+                <a href="https://github.com/vinctven" target="_blank">GitHub</a>
+            </div>
+
+        </body>
+    </head>
+</html>
